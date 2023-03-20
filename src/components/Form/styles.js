@@ -5,11 +5,11 @@ export const Container = styled.div`
   margin: 20px auto;
   width: 98%;
   background-color: #fff;
-  box-shadow: 0 0 5px #ccc;
+  box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding: 15px 0;
+  padding: 15px 0px;
   gap: 10px;
 
   @media (max-width: 750px) {
@@ -39,7 +39,7 @@ export const RadioGroup = styled.div`
   input {
     margin-left: 20px;
     margin-right: 5px;
-    accent-color: teal;
+    accent-color: black;
     margin-top: 0;
   }
 `;
@@ -51,5 +51,4 @@ export const Button = styled.button`
   cursor: pointer;
   color: white;
   background-color: teal;
-  font-weight: bold;
 `;
